@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dhradnfkebaph"]
+
+[ext_resource type="Texture2D" uid="uid://barq67eed08is" path="res://icon.svg" id="1_lc1oi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qnpof"]
+
+[node name="Node2D" type="Node2D" unique_id=367158197]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1288284277]
+sprite_frames = SubResource("SpriteFrames_qnpof")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1037242577]
+texture = ExtResource("1_lc1oi")
